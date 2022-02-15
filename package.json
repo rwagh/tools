@@ -1,5 +1,5 @@
 {
-  "name": "tools",
+  "name": "@waghravi/tools",
   "version": "1.0.0",
   "description": "Common Tools",
   "main": "index.js",
