@@ -11,6 +11,10 @@ export default {
     var min = max / 10;
     var number = Math.floor(Math.random() * (max - min + 1)) + min;
 
+    if (("" + number).substring(add).indexOf(0) == 0) {
+      return this.id(n);
+    }
+
     return ("" + number).substring(add);
   },
   capitalize: (value) => {
