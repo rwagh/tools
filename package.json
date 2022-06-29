@@ -1,6 +1,6 @@
 {
   "name": "@waghravi/tools",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Common Tools",
   "main": "index.js",
   "type": "module",
