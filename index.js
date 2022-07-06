@@ -14,7 +14,7 @@ function id(n){
     return id(n);
   }
 
-  return ("" + number).substring(add);
+  return Number(("" + number).substring(add));
 }
 
 export default {
