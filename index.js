@@ -43,4 +43,7 @@ export default {
     const numberRegx = /\d+/g;
     return value.match(numberRegx).join("");
   },
+  round:(value)=>{
+    return Math.round((value + Number.EPSILON) * 100) / 100
+  }
 };
